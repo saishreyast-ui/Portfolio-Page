@@ -33,3 +33,62 @@ h1{
     outline: none;
     box-shadow: none;
 }
+.yes-info,.no-info{
+    opacity: 0;
+    transform: translateY(15px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    pointer-events: none;
+}
+.yes-info.active, .no-info.active{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.response{
+    position: absolute;
+}
+.no-info, .yes-info{
+    position: absolute;
+    width: 25rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    font-size: 30px;
+    color: #B6BDB9;
+    background-color: #254439;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ref{
+    color: aquamarine;
+    text-decoration: underline;
+}
+.ref:hover{
+    text-decoration: line-through;
+    color: aquamarine;
+}
+.indent{
+    padding-left: 30px;
+}
+.side-nav{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    align-items: flex-end;
+    gap: 8px;
+
+    padding-right: 20px;
+    border-right: 2px solid #234d41;
+}
+.jump{
+    color: #234d41;
+    font-size: 20px;
+    line-height: 1;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.jump:hover{
+    transform: translateX(-10px);
+    color: aquamarine;
+    text-decoration: line-through;
+}
