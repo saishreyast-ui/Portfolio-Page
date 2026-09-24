@@ -1,0 +1,23 @@
+.side-nav{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    align-items: flex-end;
+    gap: 8px;
+
+    padding-right: 20px;
+    border-right: 2px solid #234d41;
+}
+.jump{
+    color: #234d41;
+    font-size: 20px;
+    line-height: 1;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.jump:hover{
+    transform: translateX(-10px);
+    color: aquamarine;
+    text-decoration: line-through;
+}
