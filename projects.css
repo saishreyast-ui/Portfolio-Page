@@ -1,3 +1,8 @@
+body{
+    background-color: #234d41;
+    font-family: "Quintessential";
+}
+/* Side Nav */
 .side-nav{
     position: fixed;
     right: 10px;
@@ -11,7 +16,7 @@
     border-right: 2px solid #234d41;
 }
 .jump{
-    color: #234d41;
+    color: #B6BDB9;
     font-size: 20px;
     line-height: 1;
     transition: transform 0.2s ease, color 0.2s ease;
@@ -20,4 +25,36 @@
     transform: translateX(-10px);
     color: aquamarine;
     text-decoration: line-through;
+}
+/* Side Nav End */
+
+/* Carousel */
+.arrow{
+    background-color: #234d41;
+    color: #89928E;
+    border: none;
+    font-size: 100px;
+}
+.arrow-left{
+    padding: 20px 10px 20px 15px;
+}
+.arrow-right{
+    padding: 20px 15px 20px 10px;
+}
+.card{
+    margin: 15px;
+}
+/* carousel end */
+
+/* Proj Title */
+.project{
+    align-self: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+.hhh{
+    font-size: 10vh;
+    font-weight: 1000;
+    color: #1A2D29;
+    letter-spacing: -25px;
 }
