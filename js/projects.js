@@ -19,28 +19,29 @@ const projectsList = [
         technologies: ["Arduino (C++)", "Python", "LCD Interfacing"],
         Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
         page: "projects/smartCharger.html"
-    },
-    {
-        id: 4,
-        title: "P4",
-        technologies: ["T1", "T2", "T3"],
-        Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
-        page: "projects/p.html"
-    },
-    {
-        id: 5,
-        title: "P5",
-        technologies: ["Arduino (C++)", "Python", "LCD Interfacing"],
-        Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
-        page: "projects/p.html"
-    },
-    {
-        id: 6,
-        title: "P6",
-        technologies: ["Arduino (C++)", "Python", "LCD Interfacing"],
-        Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
-        page: "projects/p.html"
     }
+    // ,
+    // {
+    //     id: 4,
+    //     title: "P4",
+    //     technologies: ["T1", "T2", "T3"],
+    //     Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
+    //     page: "projects/p.html"
+    // },
+    // {
+    //     id: 5,
+    //     title: "P5",
+    //     technologies: ["Arduino (C++)", "Python", "LCD Interfacing"],
+    //     Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
+    //     page: "projects/p.html"
+    // },
+    // {
+    //     id: 6,
+    //     title: "P6",
+    //     technologies: ["Arduino (C++)", "Python", "LCD Interfacing"],
+    //     Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
+    //     page: "projects/p.html"
+    // }
 ];
 
 let carouselIdx = 0; //where is the carousal currently positioned
