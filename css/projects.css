@@ -88,6 +88,8 @@ body{
     padding: 30px;
     background-color: #7f9183;
     border-radius: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: aquamarine transparent;
 }
 .view-content{
     height: 100%;

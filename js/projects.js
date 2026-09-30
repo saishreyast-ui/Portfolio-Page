@@ -25,21 +25,21 @@ const projectsList = [
         title: "P4",
         technologies: ["T1", "T2", "T3"],
         Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
-        page: "projects/p4.html"
+        page: "projects/p.html"
     },
     {
         id: 5,
         title: "P5",
         technologies: ["Arduino (C++)", "Python", "LCD Interfacing"],
         Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
-        page: "projects/p5.html"
+        page: "projects/p.html"
     },
     {
         id: 6,
         title: "P6",
         technologies: ["Arduino (C++)", "Python", "LCD Interfacing"],
         Description: "Shows basic Arduino programming, circuit connections, and automation skills.",
-        page: "projects/p6.html"
+        page: "projects/p.html"
     }
 ];
 
@@ -99,5 +99,5 @@ async function selectProject(id){
 
     const response = await fetch(project.page);
     const html = await response.text();
-    document.querySelector("#project-content").innerHTML = html;
+    document.querySelector(".view-content").innerHTML = html;
 }
