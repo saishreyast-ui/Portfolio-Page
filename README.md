@@ -149,26 +149,15 @@ Known areas for improvement include responsive behavior, accessibility, richer p
 
 ## Future Plans
 
-### v2
-
-- Make the website fully responsive across mobile, tablet, and desktop screens.
-- Improve accessibility, including keyboard navigation, focus states, semantic HTML, and appropriate ARIA usage where necessary.
-- Improve mobile navigation and layouts.
 - Complete and expand individual project detail pages.
+- Add project images, demonstrations, and GitHub links.
+- Make the website fully responsive across mobile, tablet, and desktop screens.
+- Improve accessibility.
 - Improve the project carousel.
 - Experiment with a spiral-style project carousel.
 - Improve animations and transitions.
-- Refine typography and spacing across different screen sizes.
-- Improve performance and loading behavior.
 - Review favicon and web manifest configuration for different deployment paths.
-
-### Later
-
 - Add more projects.
-- Add project images, demonstrations, and GitHub links.
-- Add more interactive elements.
-- Improve SEO and metadata.
-- Add a custom domain if appropriate.
 
 ## Author
 
