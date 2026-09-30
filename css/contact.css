@@ -50,7 +50,6 @@ h1{
 .no-info, .yes-info{
     position: absolute;
     width: 25rem;
-    max-width: 100%;
     margin-top: 5rem;
     margin-left: 5rem;
     font-size: 30px;
@@ -92,34 +91,4 @@ h1{
     transform: translateX(-10px);
     color: aquamarine;
     text-decoration: line-through;
-}
-
-@media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .container {
-        width: 90%;
-        margin: auto;
-    }
-
-    .row {
-        flex-direction: column;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
 }
