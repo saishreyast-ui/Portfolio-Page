@@ -1,0 +1,175 @@
+html {
+    scrollbar-width: thin;
+    scrollbar-color: aquamarine transparent;
+}
+
+body {
+    padding-top: 56px;
+    font-family: "Quintessential";
+    color: #234d41;
+}
+
+/* Side Nav */
+.side-nav {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    align-items: flex-end;
+    gap: 8px;
+
+    padding-right: 20px;
+    border-right: 2px solid #234d41;
+}
+
+.jump {
+    color: #254439;
+    font-size: 20px;
+    line-height: 1;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.jump:hover {
+    transform: translateX(-10px);
+    color: aquamarine;
+    text-decoration: line-through;
+}
+
+/* Side Nav End */
+
+
+/*INTRO*/
+.about-intro {
+    min-height: 75vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 0;
+}
+
+/*INTRO end*/
+
+/*journey*/
+.timeline-section {
+    padding: 100px 0;
+}
+
+.timeline {
+    position: relative;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+
+    left: 50%;
+
+    width: 2px;
+
+    background: #dee2e6;
+
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+
+    width: 50%;
+
+    padding: 20px 40px;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.timeline-dot {
+    position: absolute;
+
+    top: 30px;
+
+    width: 14px;
+    height: 14px;
+
+    border-radius: 50%;
+
+    background: #343a40;
+
+    border: 3px solid white;
+
+    box-shadow: 0 0 0 2px #343a40;
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+    right: -7px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+    left: -7px;
+}
+
+.timeline-content {
+    padding: 25px;
+
+    background: white;
+
+    border-radius: 8px;
+
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+}
+
+.timeline-year {
+    display: block;
+
+    font-size: 0.85rem;
+
+    font-weight: bold;
+
+    color: #6c757d;
+
+    margin-bottom: 8px;
+}
+
+/*journey end*/
+
+/*skills*/
+.skills-section {
+    padding: 80px 0;
+}
+
+.skill-card {
+    border-radius: 8px;
+
+    transition: transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/*skills end*/
+
+.contact-section {
+    padding: 80px 0;
+}
