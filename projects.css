@@ -35,6 +35,10 @@ body{
     border: none;
     font-size: 100px;
 }
+.arrow:focus{
+    box-shadow: none;
+    outline: none;
+}
 .arrow-left{
     padding: 20px 10px 20px 15px;
 }
@@ -43,6 +47,20 @@ body{
 }
 .card{
     margin: 15px;
+    width: 18rem;
+    height: 13rem;
+    background-color: #B6BDB9;
+    border-radius: 20px;
+}
+.card:hover{
+    color: aquamarine;
+    background-color: #1A2D29;
+    transform: translateY(-0.25em);
+    box-shadow: 0 0.5em 0.5em -0.4em;
+}
+.card-title{
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 /* carousel end */
 
@@ -52,9 +70,34 @@ body{
     writing-mode: vertical-rl;
     text-orientation: upright;
 }
-.hhh{
+.vert-tit{
     font-size: 10vh;
     font-weight: 1000;
     color: #1A2D29;
     letter-spacing: -25px;
+}
+/* Proj Title end */
+
+/* Viewer */
+.viewer{
+    height: 90vh;
+    width: 100vh;
+    overflow-y: auto;
+    margin: 30px;
+    margin-right: 150px;
+    padding: 30px;
+    background-color: #7f9183;
+    border-radius: 20px;
+}
+.view-content{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-content p{
+    font-size: 1.2rem;
+    opacity: 0.6;
+    color: #252323;
+    margin-top: 50%;
 }
